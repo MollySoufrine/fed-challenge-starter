@@ -1,0 +1,8 @@
+.details {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  cursor: pointer;
+  color: rgb(52, 116, 137);
+  font-weight: bold;
+}
