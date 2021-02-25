@@ -1,0 +1,50 @@
+[
+  {
+    "image": "/images/charlesRace.png",
+    "headline": "Chales Race, Boston, MA",
+    "description": "Row along side this spectacular race as if you're there competing too! ",
+    "id": 1
+  },
+  {
+    "image": "/images/hiit.png",
+    "headline": "Full-Body HIIT Series",
+    "description": "Follow this series for 12 awesome workouts to make you sweat and work hard",
+    "id": 2
+  },
+  {
+    "image": "/images/lake.png",
+    "headline": "Lake Inniscarra, Ireland, Pyramid",
+    "description": "Escape to Ireland for scenic views and a workout you won't forget",
+    "id": 3
+  },
+  {
+    "image": "/images/performance.png",
+    "headline": "Performance Series",
+    "description": "9 workouts in this guided series to get you to perform better in any sport",
+    "id": 4
+  },
+  {
+    "image": "/images/shredBurn.png",
+    "headline": "Shred & Burn Series",
+    "description": "Commit to this 16 workout series, no thinking involved but you'll feel the burn",
+    "id": 5
+  },
+  {
+    "image": "/images/slowFast.png",
+    "headline": "Slow Pulls and Fast Intervals",
+    "description": "Follow along with insert_guide for row intervals you wont forget while creating a more efficient pull",
+    "id": 6
+  },
+  {
+    "image": "/images/toned.png",
+    "headline": "20 Minutes Toned",
+    "description": "Short on time? Looking for a quick burn? This 12 workout series is just for you",
+    "id": 7
+  },
+  {
+    "image": "/images/zambia.png",
+    "headline": "Kafue River, Zambia-- Power Stroke Pyramid",
+    "description": "Perfect your row stroke on the beautifuk Kafue River",
+    "id": 8
+  }
+]
