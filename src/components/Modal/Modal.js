@@ -1,7 +1,6 @@
 //make a modal drop down to give details of workout series
 import React from "react";
-import Modal from "react-bootstrap/Modal";
-import Button from "react-bootstrap/Button";
+import { Modal, Button } from "react-bootstrap";
 
 function CardModal({ data, show, onClose }) {
   if (data == null) {
