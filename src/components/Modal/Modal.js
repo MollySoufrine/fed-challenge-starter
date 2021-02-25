@@ -11,7 +11,7 @@ function CardModal({ data, show, onClose }) {
     <Modal show={show} onClose={onClose}>
       <Modal.Body>
         {console.log(data)}
-        {JSON.stringify(data.description)}
+        {data.description}
       </Modal.Body>
       <Button onClick={onClose}>Close</Button>
     </Modal>
