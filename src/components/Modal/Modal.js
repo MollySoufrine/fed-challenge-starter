@@ -9,7 +9,7 @@ function CardModal({ data, show, onClose }) {
 
   return (
     <Modal show={show} onClose={onClose}>
-      <Modal.Body>
+      <Modal.Body className="font">
         {console.log(data)}
         {data.description}
       </Modal.Body>
