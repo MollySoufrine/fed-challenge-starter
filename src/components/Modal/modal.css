@@ -18,10 +18,20 @@
   border-radius: 5%;
   width: 4rem;
   font-size: 1.2rem;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  right: 15.1%;
 }
 .modalBtn:hover {
   transform: scale(1.1);
 }
-.font {
+.modal-headline {
   font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.body {
+  font-size: 1.2rem;
 }

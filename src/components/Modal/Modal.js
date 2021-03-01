@@ -10,9 +10,9 @@ function CardModal({ data, show, onClose }) {
 
   return (
     <Modal className="modal" show={show} onClose={onClose}>
-      <Modal.Body className="font">
+      <Modal.Body className="body">
         {console.log(data)}
-        {data.headline}
+        <div className="modal-headline">{data.headline}</div>
         <br />
         {data.description}
       </Modal.Body>
