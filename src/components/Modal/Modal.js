@@ -12,6 +12,8 @@ function CardModal({ data, show, onClose }) {
     <Modal className="modal" show={show} onClose={onClose}>
       <Modal.Body className="font">
         {console.log(data)}
+        {data.headline}
+        <br />
         {data.description}
       </Modal.Body>
       <Button className="modalBtn" onClick={onClose}>
