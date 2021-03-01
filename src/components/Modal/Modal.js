@@ -1,6 +1,7 @@
 //make a modal drop down to give details of workout series
 import React from "react";
 import { Modal, Button } from "react-bootstrap";
+import "./modal.css";
 
 function CardModal({ data, show, onClose }) {
   if (data == null) {
@@ -8,12 +9,14 @@ function CardModal({ data, show, onClose }) {
   }
 
   return (
-    <Modal show={show} onClose={onClose}>
+    <Modal className="modal" show={show} onClose={onClose}>
       <Modal.Body className="font">
         {console.log(data)}
         {data.description}
       </Modal.Body>
-      <Button onClick={onClose}>Close</Button>
+      <Button className="modalBtn" onClick={onClose}>
+        Close
+      </Button>
     </Modal>
   );
 }

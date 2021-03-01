@@ -1,8 +1,8 @@
 .card {
   margin: 1rem auto;
   padding: 0.5rem;
-  width: 18rem;
-  height: 18rem;
+  max-width: 18rem;
+  min-height: 18rem;
   background: #fff;
   border-radius: 0.6rem;
   text-align: center;
